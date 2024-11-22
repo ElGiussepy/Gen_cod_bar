@@ -22,8 +22,7 @@ Thumbs.db   # (Windows)
 *.db
 
 # Archivos generados de las imágenes de los códigos de barras
-static/
-*.png
+static/*.png
 
 # Archivos y directorios de IDEs comunes
 .vscode/
