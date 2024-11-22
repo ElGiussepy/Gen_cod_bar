@@ -1,0 +1,50 @@
+# Archivos temporales de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos y directorios del entorno virtual (si usas uno)
+venv/
+env/
+
+# Archivos de configuración del sistema operativo
+
+Thumbs.db   # (Windows)
+
+# Archivos temporales y directorios generados por Flask
+*.db
+*.sqlite3
+*.log
+
+# Archivos de bases de datos locales si las usas
+*.sqlite3
+*.db
+
+# Archivos generados de las imágenes de los códigos de barras
+static/
+*.png
+
+# Archivos y directorios de IDEs comunes
+.vscode/
+.idea/
+
+# Archivos de configuración de PyCharm o similares
+*.iml
+.idea/
+
+# Archivos de dependencias de Python que pueden ser recreados
+*.egg-info/
+*.dist-info/
+
+# Ignorar archivos de requisitos si ya están definidos
+# requirements.txt
+
+# Archivos temporales de edición (como vim)
+*.swp
+
+# Archivos generados por ReportLab (archivos PDF de salida)
+static/*.pdf
+
+# Archivos generados durante el desarrollo que no necesitas compartir
+*.tmp
